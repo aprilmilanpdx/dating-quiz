@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Celebrity Dating Quiz</title>
+</head>
+<body>
+  <div>
+    <h1>Celebrity Dating Quiz</h1>
+
+    <p>To learn who your celbrity date is, please enter your birth month and whether you like dogs or cats in the form below.</p>
+
+    <form>
+      <label for="month">Month</label>
+      <input id="month" type="text" name="month"></input>
+      <label for="pet">Pet</label>
+      <input id="pet" type="text" name="pet"></input>
+      <button type="submit">Show me my celebrity date!</button>
+    </form>
+
+    <div id="vinny" class="hidden">  
+      <h1>Your celebrity date is Vinny!</h1>    
+      <p>You match because your Birth month was the same and you like the same pets.</p>
+    </div>
+    <div id="gaston" class="hidden"> 
+      <h1>Your celebrity date is Gaston!</h1>    
+      <p>You match because your Birth month was the same and you like the same pets.</p>
+    </div> 
+    <div id="frollo" class="hidden"> 
+      <h1>Your celebrity date is Frollo!</h1>    
+      <p>You match because your Birth month was the same and you like the same pets.</p>
+    </div> 
+    <div id="noMatch" class="hidden"> 
+      <h1>You didn't match with anyone. :(</h1>    
+      <p>No one in our database had the same Birth month and pet preference as you.</p>
+    </div> 
+  </div>
+</body>
+</html>
